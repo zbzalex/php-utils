@@ -1,0 +1,31 @@
+{
+    "name": "phpenhance/utils",
+    "type": "library",
+    "version": "0.2.0",
+    "authors": [
+        {
+            "name": "Sasha Broslavskiy",
+            "email":"sasha.broslavskiy@gmail.com"
+        }
+    ],
+    "homepage": "https://web3horizen.com",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "annotations"
+    ],
+    "require": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev"
+}
